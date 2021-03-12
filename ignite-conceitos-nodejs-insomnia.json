@@ -1,0 +1,273 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-03-12T18:59:21.929Z",
+  "__export_source": "insomnia.desktop.app:v2020.5.2",
+  "resources": [
+    {
+      "_id": "req_0c8f30afc0be4b848f4522c2785f9dbc",
+      "parentId": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "modified": 1615573723187,
+      "created": 1615573672951,
+      "url": "{{ _.baseUrl }}/todos/157a4a65-e7d1-4f6e-a885-11669637356b",
+      "name": "Delete todo",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "username",
+          "value": "lcoalves",
+          "description": "",
+          "id": "pair_efc912e97ee54c56b856ec228b617e18"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1615572186360,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "parentId": "wrk_58bf4bcfe8ff4155aa28c796ced3901e",
+      "modified": 1615572065087,
+      "created": 1615572065087,
+      "name": "Users",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1615572065087,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_58bf4bcfe8ff4155aa28c796ced3901e",
+      "parentId": null,
+      "modified": 1615572056598,
+      "created": 1615572056598,
+      "name": "Ignite Conceitos NodeJS",
+      "description": "",
+      "scope": "spec",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_2173e8509b294ce788c6462e2e364a88",
+      "parentId": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "modified": 1615573697345,
+      "created": 1615573448317,
+      "url": "{{ _.baseUrl }}/todos/226b8a61-fae1-4f33-aae1-dd1d728c151a/done",
+      "name": "Patch todo",
+      "description": "",
+      "method": "PATCH",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "username",
+          "value": "lcoalves",
+          "description": "",
+          "id": "pair_efc912e97ee54c56b856ec228b617e18"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1615572186310,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_ddb136ad271646bbaf8dc37c2386d9ce",
+      "parentId": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "modified": 1615573689985,
+      "created": 1615572873544,
+      "url": "{{ _.baseUrl }}/todos/226b8a61-fae1-4f33-aae1-dd1d728c151a",
+      "name": "Update todo",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\": \"Titulo alt\",\n\t\"deadline\": \"2021-03-28\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "username",
+          "value": "lcoalves",
+          "description": "",
+          "id": "pair_efc912e97ee54c56b856ec228b617e18"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_466bff9ac0b748bfa83f6cecac3c39f3"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1615572186260,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_b7914f5c88904306b8153510ea1c4688",
+      "parentId": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "modified": 1615573714829,
+      "created": 1615572186210,
+      "url": "{{ _.baseUrl }}/todos",
+      "name": "Create todo",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\": \"Titulo 2\",\n\t\"deadline\": \"2021-03-27\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "username",
+          "value": "lcoalves",
+          "description": "",
+          "id": "pair_efc912e97ee54c56b856ec228b617e18"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_466bff9ac0b748bfa83f6cecac3c39f3"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1615572186210,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_76a58b4d71474eeeb871ac121a6e88be",
+      "parentId": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "modified": 1615572890315,
+      "created": 1615572433540,
+      "url": "{{ _.baseUrl }}/todos",
+      "name": "List todos",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "username",
+          "value": "lcoalves",
+          "description": "",
+          "id": "pair_efc912e97ee54c56b856ec228b617e18"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1615572130905,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_10cac3ade6c0454f82cfa7f91aa99f63",
+      "parentId": "fld_95a4e85b0c6747bab772a8b81fc8a5de",
+      "modified": 1615572147791,
+      "created": 1615572075600,
+      "url": "{{ _.baseUrl }}/users",
+      "name": "Create",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Lucas Alves\",\n\t\"username\": \"lcoalves\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_82f5d31911e54b98bd98e64aacbb5c56"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1615572075600,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_fbcee307175a5709bc90eddf7e672b3656da1182",
+      "parentId": "wrk_58bf4bcfe8ff4155aa28c796ced3901e",
+      "modified": 1615572058428,
+      "created": 1615572058428,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1615572058428,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_fbcee307175a5709bc90eddf7e672b3656da1182",
+      "parentId": "wrk_58bf4bcfe8ff4155aa28c796ced3901e",
+      "modified": 1615572058455,
+      "created": 1615572058455,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_4f5bfeb5b4b74449b4c88836a3a45e0b",
+      "parentId": "wrk_58bf4bcfe8ff4155aa28c796ced3901e",
+      "modified": 1615572056607,
+      "created": 1615572056607,
+      "fileName": "Ignite Conceitos NodeJS",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    },
+    {
+      "_id": "env_64e299bd898e4fc1abc9d4b0eedda270",
+      "parentId": "env_fbcee307175a5709bc90eddf7e672b3656da1182",
+      "modified": 1615572127407,
+      "created": 1615572081016,
+      "name": "dev",
+      "data": { "baseUrl": "http://localhost:3333" },
+      "dataPropertyOrder": { "&": ["baseUrl"] },
+      "color": "#a36bdb",
+      "isPrivate": false,
+      "metaSortKey": 1615572081016,
+      "_type": "environment"
+    }
+  ]
+}
