@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Desafio 01 Ignite Conceitos NodeJS Middlewares" title="Desafio 01 Ignite Conceitos NodeJS Middlewares" src=".github/gostack-node.png" width="200px" />
+  <img alt="Desafio 02 Ignite Conceitos NodeJS Middlewares" title="Desafio 01 Ignite Conceitos NodeJS Middlewares" src=".github/gostack-node.png" width="200px" />
 </h1>
 
 <h3 align="center">
