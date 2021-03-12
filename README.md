@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Desafio 01 Ignite Rocketseat: Conceitos NodeJS Middlewares.
+  Desafio 02 Ignite Rocketseat: Conceitos NodeJS Middlewares.
   <br>
   Acima foi construido uma API REST que cria, lista, atualiza e remove (CRUD) 'to.dos' e implementa diversos middlewares.
 </h3>
